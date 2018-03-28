@@ -1,0 +1,183 @@
+body {
+
+            background: #f3f2f3;
+
+            color: #000000;
+
+            font-family: Trebuchet MS, Arial, Times New Roman;
+
+            font-size: 12px;
+}
+
+#container {
+
+            background: #FFFFFF;
+
+            margin: 30px auto;
+
+            width: 900px;
+
+            height: 1000px;
+}
+
+#header {
+
+            background: #838283;
+
+            height: 200px;
+
+            width: 900px;
+}
+
+#navigation {
+
+            background: #a2a2a2;
+
+            width: 900px;
+
+            height: 20px;
+}
+
+#menu {
+            background: #333333;
+
+            float: left;
+
+            width: 200px;
+
+            height: 900px;
+    }
+
+#menu li {
+}
+#menu a {
+    color: #0088cc;
+}
+
+#content {
+
+            background: #d2d0d2;
+
+            float: right;
+
+ 
+
+            width: 700px;
+
+            height: 900px;
+}
+
+ #info {
+            background: #333333;
+
+            float: right;
+
+            width: 20px;
+
+            height: 600px;
+    }
+
+#info li {
+}
+
+#info a {
+    color: #0088cc;
+}
+
+#clear {
+
+            clear:both;
+}
+
+#footer {
+
+            background: #838283;
+
+            height: 80px;
+
+            width: 900px;
+}
+
+#chronometer_hot{
+	 font-family: 'Iceland', sans-serif;
+		    font-size: 50px;
+        white-space:nowrap;
+		    padding: 10px;
+	    overflow: hidden;
+	    display: inline-block;
+      letter-spacing:-2px;
+  //    text-shadow:0 0 10px rgba(23, 140, 140, 0.75);
+	    border: 3px solid red;
+	    border-radius: 5px;
+	    position: relative;
+	    box-shadow: 0px -2px 10px 1px rgba(231, 82, 59, 0.7) inset, 0px 5px 20px -10px #000;
+	    width: 300px;
+      color: black; 
+	    background: #ffffff;
+
+	}
+	
+#chronometer_cold{
+	 font-family: 'Iceland', sans-serif;
+		    font-size: 50px;
+        white-space:nowrap;
+		    padding: 10px;
+	    overflow: hidden;
+	    display: inline-block;
+      letter-spacing:-2px;
+  //    text-shadow:0 0 10px rgba(23, 140, 140, 0.75);
+	    border: 3px solid blue;
+	    border-radius: 5px;
+	    position: relative;
+	    box-shadow: 0px -2px 10px 1px rgba(0, 1, 178, 0.3) inset, 0px 5px 20px -10px #000;
+	    width: 300px;
+      color: black; 
+	    background: #ffffff;
+
+	}
+	
+	
+#thousandths{
+  color: red; 
+}
+
+
+
+///////////////////////////////
+
+
+.demo-container {
+//	box-sizing: border-box;
+	width: 900px;
+	height: 10000px;
+	padding: 20px 15px 15px 15px;
+	margin: 15px auto 30px auto;
+	border: 1px solid #ddd;
+	background: #ffffff;
+	background: linear-gradient(#f6f6f6 0, #fff 50px);
+	background: -o-linear-gradient(#f6f6f6 0, #fff 50px);
+	background: -ms-linear-gradient(#f6f6f6 0, #fff 50px);
+	background: -moz-linear-gradient(#f6f6f6 0, #fff 50px);
+	background: -webkit-linear-gradient(#f6f6f6 0, #fff 50px);
+	box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+	-o-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+	-ms-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.demo-placeholder {
+	width: 500px;
+	height: 200px;
+	font-size: 14px;
+	line-height: 1.2em;
+	background: #ffffff;
+}
+
+
+
+
+
+
+
+

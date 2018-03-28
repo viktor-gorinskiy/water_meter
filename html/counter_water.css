@@ -1,0 +1,24 @@
+html,body{ height:100%; margin:0; }
+
+#chronometer{
+	 font-family: 'Iceland', sans-serif;
+		    font-size: 50px;
+        white-space:nowrap;
+		    padding: 10px;
+	    overflow: hidden;
+	    display: inline-block;
+      letter-spacing:-2px;
+  //    text-shadow:0 0 10px rgba(23, 140, 140, 0.75);
+	    border: 2px solid #222;
+	    border-radius: 5px;
+	    position: relative;
+	//    box-shadow: 0px -2px 10px 1px rgba(23, 140, 140, 0.75) inset, 0px 5px 20px -10px #000;
+	    width: 300px;
+      color: black; 
+	    background: #ffffff;
+
+	}
+	
+#thousandths{
+  color: red; 
+}

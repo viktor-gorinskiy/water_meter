@@ -1,0 +1,8 @@
+<?php
+define('DB_PATH', dirname(__FILE__, 2) . "/datebase/water_clock.sqlite");
+echo DB_PATH;
+$db = new SQLite3(DB_PATH);
+$db->exec("INSERT INTO temperature_water (hot_temperature,cold_temperature) VALUES ('33', '0')");
+?>
+
+
